@@ -1,0 +1,25 @@
+{
+    "name": "fanbox/calculator",
+    "description": "Demo Package for calculator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dtahir57",
+            "email": "dtahir57@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+                "Fanbox\\Calculator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fanbox\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
+}
